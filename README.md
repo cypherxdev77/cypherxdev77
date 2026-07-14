@@ -1,14 +1,33 @@
+<a id="top"></a>
 <div align="center">
 
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:001a00&height=220&section=header&text=CYPHER&fontSize=75&fontColor=00FF41&fontAlignY=38&desc=full-stack%20developer%20·%20AI%20systems%20·%20SaaS%20infra&descAlignY=58&descSize=18&descAlign=50&animation=fadeIn"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&background=000000&width=600&lines=building+autonomous+systems...;shipping+in+silence...;privacy+is+a+default...;%5BACCESS_GRANTED%5D" alt="typing"/>
 
+<br>
+
+<a href="#en"><img src="https://img.shields.io/badge/🇬🇧_EN-active-00FF41?style=for-the-badge&labelColor=000000"/></a>
+<a href="#fr"><img src="https://img.shields.io/badge/🇫🇷_FR-jump-0a0a0a?style=for-the-badge&labelColor=000000&color=1a1a1a"/></a>
+<a href="#ru"><img src="https://img.shields.io/badge/🇷🇺_RU-jump-0a0a0a?style=for-the-badge&labelColor=000000&color=1a1a1a"/></a>
+<a href="#zh"><img src="https://img.shields.io/badge/🇨🇳_中文-jump-0a0a0a?style=for-the-badge&labelColor=000000&color=1a1a1a"/></a>
+
+<sub><i>no JS runs on GitHub profiles — click a flag, the page jumps straight there, same tab</i></sub>
+
+<br><br>
+
 <img src="assets/matrix-rain.svg" width="100%" alt="matrix rain"/>
 
 </div>
 
 <br>
+
+<a id="en"></a>
+<div align="center">
+
+![section](https://capsule-render.vercel.app/api?type=rect&color=0:00FF41,100:000000&height=3&width=1200)
+
+</div>
 
 ```
 guest@cypher:~$ whoami
@@ -48,6 +67,24 @@ tools         shell scripting · api integration · reverse engineering
 
 <br>
 
+## `> philosophy.txt`
+
+```
+freedom      → no hierarchy asked for permission to exist. none granted back.
+              decentralize everything that can be decentralized.
+              the fewer gatekeepers between an idea and its execution, the better.
+
+privacy      → anonymity is not guilt. it's the default state before surveillance.
+              encrypt first, explain never.
+              what isn't logged can't be used against you.
+
+action       → talk is cheap, shipped code is not.
+              judged on what exists, not on what's announced.
+              build the thing — let it speak for itself.
+```
+
+<br>
+
 ## `> manifesto.txt`
 
 ```
@@ -81,21 +118,20 @@ drwx------  loading...        in progress
 
 <div align="center">
 <sub>connection encrypted · session logged nowhere</sub>
+
+[↑ back to top](#top)
 </div>
 
 <br>
 
----
-
+<a id="fr"></a>
 <div align="center">
 
-### `> select_language --other`
+![section](https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00FF41&height=3&width=1200)
+
+**🇫🇷 Français**
 
 </div>
-
-<details>
-<summary>🇫🇷 &nbsp;<b>Français</b></summary>
-<br>
 
 ```
 guest@cypher:~$ whoami
@@ -119,6 +155,24 @@ outils        scripting shell · intégration api · rétro-ingénierie
 ```
 
 ```
+guest@cypher:~$ cat philosophy.txt
+```
+
+```
+liberté      → aucune hiérarchie n'a demandé la permission d'exister. aucune ne l'obtient de moi.
+              décentraliser tout ce qui peut l'être.
+              moins il y a de gardiens entre une idée et son exécution, mieux c'est.
+
+vie privée   → l'anonymat n'est pas une culpabilité. c'est l'état par défaut avant la surveillance.
+              chiffrer d'abord, expliquer jamais.
+              ce qui n'est pas enregistré ne peut pas être retenu contre toi.
+
+action       → parler ne coûte rien, livrer du code si.
+              on est jugé sur ce qui existe, pas sur ce qui est annoncé.
+              construire la chose — la laisser parler d'elle-même.
+```
+
+```
 aucune permission demandée. pas de gardiens.
 construire l'outil d'abord, expliquer ensuite.
 la vie privée est un défaut, pas une option.
@@ -131,11 +185,22 @@ drwx------  chargement...     en cours
 -rw-------  bientot.log       chiffré
 ```
 
-</details>
+<div align="center">
+<sub>connexion chiffrée · session non enregistrée</sub>
 
-<details>
-<summary>🇷🇺 &nbsp;<b>Русский</b></summary>
+[↑ retour en haut](#top)
+</div>
+
 <br>
+
+<a id="ru"></a>
+<div align="center">
+
+![section](https://capsule-render.vercel.app/api?type=rect&color=0:00FF41,100:000000&height=3&width=1200)
+
+**🇷🇺 Русский**
+
+</div>
 
 ```
 guest@cypher:~$ whoami
@@ -159,6 +224,24 @@ backend       rest / graphql api · sql и nosql базы данных
 ```
 
 ```
+guest@cypher:~$ cat philosophy.txt
+```
+
+```
+свобода       → ни одна иерархия не спрашивала разрешения существовать. я его не даю в ответ.
+               децентрализовать всё, что можно децентрализовать.
+               чем меньше привратников между идеей и её исполнением — тем лучше.
+
+приватность   → анонимность — не вина. это состояние по умолчанию до слежки.
+               сначала шифровать, потом никогда не объяснять.
+               то, что не залогировано, не может быть использовано против тебя.
+
+действие      → слова ничего не стоят, а поставленный код — стоит.
+               судят по тому, что существует, а не по тому, что анонсировано.
+               строй вещь — пусть она говорит сама за себя.
+```
+
+```
 разрешения не спрашиваю. без привратников.
 сначала строю инструмент, объясняю потом.
 приватность — это стандарт, а не опция.
@@ -171,11 +254,22 @@ drwx------  загрузка...       в процессе
 -rw-------  скоро.log         зашифровано
 ```
 
-</details>
+<div align="center">
+<sub>соединение зашифровано · сессия нигде не логируется</sub>
 
-<details>
-<summary>🇨🇳 &nbsp;<b>中文</b></summary>
+[↑ наверх](#top)
+</div>
+
 <br>
+
+<a id="zh"></a>
+<div align="center">
+
+![section](https://capsule-render.vercel.app/api?type=rect&color=0:000000,100:00FF41&height=3&width=1200)
+
+**🇨🇳 中文**
+
+</div>
 
 ```
 guest@cypher:~$ whoami
@@ -199,6 +293,24 @@ ai / 智能体    llm编排 · 智能体流水线 · 自动化系统
 ```
 
 ```
+guest@cypher:~$ cat philosophy.txt
+```
+
+```
+自由     → 没有任何等级制度请求过存在的许可,我也不会给予任何许可。
+          尽可能地去中心化一切。
+          想法与执行之间的守门人越少越好。
+
+隐私     → 匿名不是有罪的证明,而是监视发生之前的默认状态。
+          先加密,永不解释。
+          未被记录的东西无法被用来对付你。
+
+行动     → 说话不值钱,交付的代码才值钱。
+          评判的标准是已经存在的东西,而不是被宣布的东西。
+          把东西造出来——让它自己说话。
+```
+
+```
 无需许可。没有守门人。
 先构建工具,后解释原理。
 隐私是默认设置,而非附加功能。
@@ -211,4 +323,16 @@ drwx------  加载中...          进行中
 -rw-------  即将推出.log       已加密
 ```
 
-</details>
+<div align="center">
+<sub>连接已加密 · 会话不留日志</sub>
+
+[↑ 返回顶部](#top)
+</div>
+
+<br>
+
+<div align="center">
+
+![footer](https://capsule-render.vercel.app/api?type=waving&color=0:001a00,100:000000&height=100&section=footer)
+
+</div>
