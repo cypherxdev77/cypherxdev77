@@ -1,5 +1,7 @@
 <div align="center">
 
+[🇬🇧 EN](README.md) · [🇫🇷 FR](README.fr.md) · [🇷🇺 RU](README.ru.md) · [🇨🇳 中文](README.zh.md)
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:001a00&height=220&section=header&text=CYPHER&fontSize=75&fontColor=00FF41&fontAlignY=38&desc=full-stack%20developer%20·%20AI%20systems%20·%20SaaS%20infra&descAlignY=58&descSize=18&descAlign=50&animation=fadeIn"/>
 
 <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=20&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&background=000000&width=600&lines=building+autonomous+systems...;shipping+in+silence...;privacy+is+a+default...;%5BACCESS_GRANTED%5D" alt="typing"/>
