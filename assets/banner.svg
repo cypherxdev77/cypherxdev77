@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300">
+<defs>
+  <radialGradient id="bgGlow" cx="50%" cy="45%" r="75%">
+    <stop offset="0%" stop-color="#001f0a"/>
+    <stop offset="55%" stop-color="#000d05"/>
+    <stop offset="100%" stop-color="#000000"/>
+  </radialGradient>
+  <filter id="neonGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="6" result="blur1"/>
+    <feMerge>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="blur1"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <filter id="softGlow" x="-50%" y="-50%" width="200%" height="200%">
+    <feGaussianBlur stdDeviation="2.5" result="blur2"/>
+    <feMerge>
+      <feMergeNode in="blur2"/>
+      <feMergeNode in="SourceGraphic"/>
+    </feMerge>
+  </filter>
+  <linearGradient id="scanFade" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0%" stop-color="#00ff41" stop-opacity="0.06"/>
+    <stop offset="100%" stop-color="#00ff41" stop-opacity="0.02"/>
+  </linearGradient>
+  <pattern id="scanlines" width="4" height="4" patternUnits="userSpaceOnUse">
+    <rect width="4" height="2" fill="url(#scanFade)"/>
+  </pattern>
+  <style>
+    @keyframes flicker {
+      0%, 92%, 100% { opacity: 1; }
+      93% { opacity: 0.72; }
+      94% { opacity: 1; }
+      95% { opacity: 0.85; }
+      96% { opacity: 1; }
+    }
+    @keyframes scan {
+      0% { transform: translateY(-300px); }
+      100% { transform: translateY(300px); }
+    }
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .title {
+      font-family: 'Courier New', monospace;
+      font-weight: 700;
+      animation: flicker 6s infinite;
+    }
+    .sub {
+      font-family: 'Courier New', monospace;
+    }
+    .beam {
+      animation: scan 5s linear infinite;
+    }
+    .cursor {
+      animation: blink 1s step-end infinite;
+    }
+  </style>
+</defs>
+
+<rect width="1200" height="300" fill="url(#bgGlow)"/>
+<rect width="1200" height="300" fill="url(#scanlines)"/>
+
+<rect class="beam" x="0" y="0" width="1200" height="40" fill="#00ff41" opacity="0.03"/>
+
+<!-- border frame -->
+<rect x="8" y="8" width="1184" height="284" fill="none" stroke="#00ff41" stroke-opacity="0.25" stroke-width="1"/>
+<line x1="8" y1="8" x2="60" y2="8" stroke="#00ff41" stroke-width="2"/>
+<line x1="8" y1="8" x2="8" y2="60" stroke="#00ff41" stroke-width="2"/>
+<line x1="1192" y1="292" x2="1140" y2="292" stroke="#00ff41" stroke-width="2"/>
+<line x1="1192" y1="292" x2="1192" y2="240" stroke="#00ff41" stroke-width="2"/>
+
+<text x="30" y="35" class="sub" font-size="13" fill="#00ff41" opacity="0.6">root@cypher:~# ./identity.sh</text>
+
+<text x="50%" y="52%" text-anchor="middle" class="title" font-size="96" fill="#00ff41" filter="url(#neonGlow)">CYPHER</text>
+<text x="50%" y="52%" text-anchor="middle" class="title" font-size="96" fill="#eaffef">CYPHER</text>
+
+<text x="50%" y="68%" text-anchor="middle" class="sub" font-size="19" fill="#00ff41" filter="url(#softGlow)" opacity="0.9">full-stack developer &#183; AI systems &#183; SaaS infra</text>
+
+<text x="30" y="278" class="sub" font-size="13" fill="#00ff41" opacity="0.6">status: <tspan fill="#eaffef">online</tspan><tspan class="cursor">_</tspan></text>
+<text x="1170" y="278" text-anchor="end" class="sub" font-size="13" fill="#00ff41" opacity="0.6">[access_granted]</text>
+</svg>
